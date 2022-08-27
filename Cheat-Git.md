@@ -416,7 +416,25 @@ Cuando hablamos de Git tag no nos referimos a la versión de un archivo en parti
     git config --global core.excludesfile ~/.gitignore_global
   ```
   
-  +Las entradas de este archivo también pueden seguir un patrón coincidente:
-    * \*se utiliza como una coincidencia comodín
-    * / se usa para ignorar las rutas relativas al archivo .gitignore
-    * # es usado para agregar comentarios
+  + Las entradas de este archivo también pueden seguir un patrón coincidente:
+      * \*se utiliza como una coincidencia comodín
+      * / se usa para ignorar las rutas relativas al archivo .gitignore
+      * # es usado para agregar comentarios
+  
+  + Ejemplos
+```
+    # Ignora archivos del sistema Mac 
+    .DS_store
+
+    # Ignora la carpeta node_modules
+    node_modules
+
+    # Ignora todos los archivos de texto
+    *.txt
+
+    # Ignora los archivos relacionados a API keys
+    .env
+
+    # Ignora archivos de configuración SASS
+    .sass-cache
+```
