@@ -400,3 +400,23 @@ Cuando hablamos de Git tag no nos referimos a la versión de un archivo en parti
   $ git commit --amend
 ```
 
+# Git ignore
+  El archivo .gitignore es un archivo de texto que le dice a Git que archivos o carpetas ignoras en un proyecto
+  Puede ser de manera global o local
+  
+ + Local
+    - Se coloca en el directorio raiz del proyecto
+    - Crea un archivo .gitignore
+    - Editamos el archivo segun sea necesario
+    - Cada nueva linea debe incluir un archivo o carpeta adicional que quieras que Git ignore
+  
+  + Global
+    - Para agregar o cambiar tu .gitignore global, ejecuta el siguiente comando en la terminal:
+  ```
+    git config --global core.excludesfile ~/.gitignore_global
+  ```
+  
+  +Las entradas de este archivo también pueden seguir un patrón coincidente:
+    * \*se utiliza como una coincidencia comodín
+    * / se usa para ignorar las rutas relativas al archivo .gitignore
+    * # es usado para agregar comentarios
