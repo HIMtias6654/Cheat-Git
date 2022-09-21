@@ -163,6 +163,8 @@ git checkout "hash_del_commit" -- archivo.txt
 [Explicacion git merge --no-ff <name rama de la cual obtendremos los datos a fusionar>](https://aprendegit.com/forzando-merge-commits/)
 
 [Fusion Avanzada, y comandos git diff para comparar](https://git-scm.com/book/es/v2/Herramientas-de-Git-Fusi%C3%B3n-Avanzada)
+  
+[Mas sobre git diff](https://www.techiedelight.com/es/compare-two-branches-git/#:~:text=git%2Ddifftool,rama%20contra%20el%20master%20rama.&text=Se%20trata%20de%20comparar%20dos%20ramas%20en%20Git.)
 
 ### Otros comandos
 
